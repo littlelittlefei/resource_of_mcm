@@ -1,0 +1,86 @@
+\documentclass[a4paper, 11pt, titlepage]{article}
+% ----- Loading the Package MCMthesis -----
+% -----           v 5.01-L            -----
+% `tcn' is short for `Team Control Number'.
+% You should fill your tcn after the equal sign following tcn.
+% The option `sheet' contorls weather the summary sheet
+% will appear.
+% The option `abstract' controls weather the abstract
+% will appear in the title-page.
+\usepackage[tcn = 50165, sheet = true, abstract = false]{MCMthesis}
+% ----- Question Mark -----
+\problem{A}
+% ----- Fonts settings -----
+% You may need to install the font files, if it's needed.
+% Disable it, if you don't want this font.
+\usepackage{palatino}
+\usepackage{url}
+\usepackage{amsmath}
+
+\usepackage{ulem}
+\usepackage{mathtools}
+\usepackage{graphicx}
+%\usepackage{float}
+\usepackage{floatrow}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{listings}  %插入代码
+\usepackage{xcolor}
+\usepackage{mhchem}%chemistry
+%\usepackage[colorlinks,linkcolor=blue,anchorcolor=blue,citecolor=green]{hyperref}%超链接
+\usepackage{array}
+\usepackage{booktabs}
+
+%\usepackage[numbers,sort&compress]{natbib}
+%\setlength{\bibsep}{0.5ex}
+
+
+% ----- Set the skip betweent the paragraphics -----
+\setlength\parskip{.5\baselineskip}
+% ----- The name of Abstract ------
+\providecommand{\abstractname}{\relax} % <-- Do not modify here.
+\renewcommand{\abstractname}{Abstract} % <-- Modify here, if needed.
+
+\makeatletter
+\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+\makeatother
+%参考文献角标
+\DeclareMathOperator\dif{d\!}
+% -----------------------------------
+% ===== The Title of Your Paper =====
+% -----------------------------------
+\title{\textbf\Large{The optimal investment strategy for Goodgrants foundation based on analytic hierarchy process}}
+% ---------------------------------------
+% ===== The Author(s) of Your Paper =====
+% ---------------------------------------
+%\author{\small \href{http://www.latexstudio.net/}{\includegraphics[width=7cm]{logo}}}
+% ----------------
+% ===== Time =====
+% ----------------
+\date{}
+\setlength{\parindent}{0pt}
+\begin{document}
+%Abstract should be put before `\maketitle'
+%\begin{abstract}
+%\end{abstract}
+%\newpage
+%\begin{keywords}
+%keyword1; keyword2
+%\end{keywords}
+%\end{abstract}
+\maketitle
+\pagestyle{empty}
+\newpage
+% Generate the Table of Contents, if it's needed.
+% \tableofcontents
+% \newpage
+\tableofcontents
+
+\newpage
+\pagestyle{fancy}
+% The body of your paper
+%\input{Introduction.tex}
+\input{body.tex}
+
+\end{document}
+% ----- End of Document Body -----

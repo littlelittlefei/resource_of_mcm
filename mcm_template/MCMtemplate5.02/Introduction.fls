@@ -1,0 +1,8 @@
+PWD D:/study/竞赛/数学建模/数学建模/2016MCM/2015MCM/MCM2015paper/MCMtemplate5.02
+INPUT d:/Program Files/texlive/2016/texmf.cnf
+INPUT d:/Program Files/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT d:/Program Files/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT ./Introduction.tex
+OUTPUT Introduction.log
+INPUT d:/Program Files/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT d:/Program Files/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
